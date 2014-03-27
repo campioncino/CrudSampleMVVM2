@@ -1,0 +1,35 @@
+﻿<UserControl
+    x:Class="CrudSampleMVVM.Views.TransporterFormView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CrudSampleMVVM.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <Grid>
+        <TextBox x:Name="Title" FontSize="40"/>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="TransportId" Text="trId" FontWeight="Bold" Width="150" FontSize="24"/>
+                <TextBox x:Name="trId" Width="300" Margin="20,0,20,0" HorizontalAlignment="Left"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin=" 0,40,0,0">
+                <TextBlock x:Name="TransportName" Text="trName" FontWeight="Bold" Width="150" FontSize="24"/>
+                <TextBox x:Name="trName" Width="300" Margin="20,0,20,0" HorizontalAlignment="Left"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin=" 0,40,0,0">
+                <TextBlock x:Name="TransportCode" Text="trCode" FontWeight="Bold" Width="150" FontSize="24"/>
+                <TextBox x:Name="trCode" Width="300" Margin="20,0,20,0" HorizontalAlignment="Left"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin=" 0,40,0,0">
+                <TextBlock x:Name="TransportUrl" Text="trUrl" FontWeight="Bold" Width="150" FontSize="24"/>
+                <TextBox x:Name="trUrl" Width="300" Margin="20,0,20,0" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</UserControl>
+

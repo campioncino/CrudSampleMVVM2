@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="CrudSampleMVVM.Views.TransporterListPageView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CrudSampleMVVM.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!--La topAppBar ci permette la navigazione nelle pagine precedenti, è anche per questo che tutte le nostre
+    viewModel ereditano da ViewModelBase, così i comandi come GoBack sono già disponibili-->
+    <Page.TopAppBar>
+
+        <CommandBar Visibility="Visible" IsOpen="True" IsSticky="True" >
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Icon="Back" x:Name="GoBack" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+
+    </Page.TopAppBar>
+
+    <Grid Margin="0,140,0,0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <TextBlock  x:Name="Title" />
+        <StackPanel Margin="10">
+            <ContentControl x:Name="TransporterListVM" />
+        </StackPanel>
+
+
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Visibility="Visible" IsOpen="True" IsSticky="True">
+            <AppBarButton Label="Refresh" Icon="Refresh"   />
+            <AppBarButton Label="Help" Icon="Help"/>
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Add" Icon="Add" x:Name="GoToTransporterCrud" />
+                <AppBarButton Label="Transporter" Icon="List" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

@@ -1,0 +1,1 @@
+C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\CrudSampleMVVM.csproj;x64
