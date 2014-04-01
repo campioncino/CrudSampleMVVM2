@@ -53,13 +53,13 @@ namespace CrudSampleMVVM.ViewModels
         protected override void OnActivate()
         {
             base.OnActivate();
-            Debug.WriteLine("OnActivate:");
+            Debug.WriteLine("OnActivate:"+this.GetType().FullName);
         }
 
         protected override void OnViewLoaded(object view)
         {
             base.OnViewLoaded(view);
-            Debug.WriteLine("OnViewLoaded");
+            Debug.WriteLine("OnViewLoaded:" + this.GetType().FullName);
         }
 
         protected override void OnDeactivate(bool close)

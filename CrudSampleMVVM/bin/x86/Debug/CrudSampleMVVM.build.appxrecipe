@@ -35,14 +35,20 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.Core.2.0.0-alpha2\lib\portable-net45+sl5+win8+wp8\Caliburn.Micro.dll">
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.Core.2.0.0-beta\lib\portable-net45+sl5+win8+wp8\Caliburn.Micro.dll">
       <PackagePath>Caliburn.Micro.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.2.0.0-alpha2\lib\win81\Caliburn.Micro.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.2.0.0-beta\lib\win81\Caliburn.Micro.Extensions.dll">
       <PackagePath>Caliburn.Micro.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.2.0.0-alpha2\lib\win81\Caliburn.Micro.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.2.0.0-beta\lib\win81\Caliburn.Micro.Platform.dll">
       <PackagePath>Caliburn.Micro.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Callisto.1.2.9\lib\winrt45\Callisto.dll">
+      <PackagePath>Callisto.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Windows.UI.Interactivity.1.1.0.0\lib\win\Windows.UI.Interactivity.dll">
+      <PackagePath>Windows.UI.Interactivity.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf">
       <PackagePath>Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf</PackagePath>
@@ -134,6 +140,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\Views\TransporterListView.xbf">
       <PackagePath>Views\TransporterListView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Callisto.1.2.9\lib\winrt45\Callisto\themes\Generic.xaml">
+      <PackagePath>Callisto\themes\Generic.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

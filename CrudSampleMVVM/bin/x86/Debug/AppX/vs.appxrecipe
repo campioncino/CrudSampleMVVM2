@@ -6,7 +6,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>d673d6a9-5b8d-4844-b427-995b58818912</PackageIdentityName>
-    <RegisteredManifestChecksum>B17EA9929770BD1440017323A911569413FDD826DB83144D00FE2CE93E4798CA</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>2F01F95D468D4D7AEB2E355C0456914DE767437A32E960E38FFBE405D85FC9D8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d673d6a9-5b8d-4844-b427-995b58818912_1.0.0.0_x86__gradkm92q1szg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d673d6a9-5b8d-4844-b427-995b58818912_gradkm92q1szg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d673d6a9-5b8d-4844-b427-995b58818912</RegisteredPackageID>
@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-25T14:40:24.022</Modified>
+      <Modified>2014-04-01T10:34:41.591</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\CrudSampleMVVM.exe">
       <PackagePath>CrudSampleMVVM.exe</PackagePath>
-      <Modified>2014-03-26T15:46:46.990</Modified>
+      <Modified>2014-04-01T11:02:04.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
       <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
@@ -49,17 +49,25 @@
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
       <Modified>2013-10-02T11:08:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.Core.2.0.0-alpha2\lib\portable-net45+sl5+win8+wp8\Caliburn.Micro.dll">
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.Core.2.0.0-beta\lib\portable-net45+sl5+win8+wp8\Caliburn.Micro.dll">
       <PackagePath>Caliburn.Micro.dll</PackagePath>
-      <Modified>2014-03-24T11:44:50.029</Modified>
+      <Modified>2014-04-01T10:33:49.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.2.0.0-alpha2\lib\win81\Caliburn.Micro.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.2.0.0-beta\lib\win81\Caliburn.Micro.Extensions.dll">
       <PackagePath>Caliburn.Micro.Extensions.dll</PackagePath>
-      <Modified>2014-03-24T11:44:50.092</Modified>
+      <Modified>2014-04-01T10:33:49.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.2.0.0-alpha2\lib\win81\Caliburn.Micro.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Caliburn.Micro.2.0.0-beta\lib\win81\Caliburn.Micro.Platform.dll">
       <PackagePath>Caliburn.Micro.Platform.dll</PackagePath>
-      <Modified>2014-03-24T11:44:50.097</Modified>
+      <Modified>2014-04-01T10:33:50.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Callisto.1.2.9\lib\winrt45\Callisto.dll">
+      <PackagePath>Callisto.dll</PackagePath>
+      <Modified>2014-04-01T10:31:23.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Windows.UI.Interactivity.1.1.0.0\lib\win\Windows.UI.Interactivity.dll">
+      <PackagePath>Windows.UI.Interactivity.dll</PackagePath>
+      <Modified>2014-04-01T10:31:23.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf">
       <PackagePath>Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf</PackagePath>
@@ -155,35 +163,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-03-25T14:40:16.925</Modified>
+      <Modified>2014-03-27T14:13:48.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-03-25T14:40:16.925</Modified>
+      <Modified>2014-03-27T14:13:48.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\Views\MainView.xbf">
       <PackagePath>Views\MainView.xbf</PackagePath>
-      <Modified>2014-03-25T14:40:16.925</Modified>
+      <Modified>2014-03-27T14:13:48.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\Views\TransporterCrudPageView.xbf">
       <PackagePath>Views\TransporterCrudPageView.xbf</PackagePath>
-      <Modified>2014-03-26T12:23:31.799</Modified>
+      <Modified>2014-03-27T14:13:48.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\Views\TransporterFormView.xbf">
       <PackagePath>Views\TransporterFormView.xbf</PackagePath>
-      <Modified>2014-03-26T15:46:46.208</Modified>
+      <Modified>2014-03-27T14:13:48.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\Views\TransporterListPageView.xbf">
       <PackagePath>Views\TransporterListPageView.xbf</PackagePath>
-      <Modified>2014-03-25T14:40:16.933</Modified>
+      <Modified>2014-03-27T14:13:48.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\Views\TransporterListView.xbf">
       <PackagePath>Views\TransporterListView.xbf</PackagePath>
-      <Modified>2014-03-25T14:40:16.937</Modified>
+      <Modified>2014-03-27T14:13:48.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\packages\Callisto.1.2.9\lib\winrt45\Callisto\themes\Generic.xaml">
+      <PackagePath>Callisto\themes\Generic.xaml</PackagePath>
+      <Modified>2014-04-01T10:31:23.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MaxPower\documents\visual studio 2013\Projects\CrudSampleMVVM\CrudSampleMVVM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-03-26T15:46:48.908</Modified>
+      <Modified>2014-04-01T11:02:05.328</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

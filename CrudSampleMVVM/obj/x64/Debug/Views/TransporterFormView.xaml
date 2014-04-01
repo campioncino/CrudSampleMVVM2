@@ -10,7 +10,6 @@
     d:DesignWidth="400">
     
     <Grid>
-        <TextBox x:Name="Title" FontSize="40"/>
         <StackPanel Orientation="Vertical">
             <StackPanel Orientation="Horizontal">
                 <TextBlock x:Name="TransportId" Text="trId" FontWeight="Bold" Width="150" FontSize="24"/>

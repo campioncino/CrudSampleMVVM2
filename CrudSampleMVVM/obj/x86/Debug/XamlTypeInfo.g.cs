@@ -291,6 +291,8 @@ namespace CrudSampleMVVM.CrudSampleMVVM_XamlTypeInfo
                     _otherProviders.Add(provider); 
                     provider = new global::Caliburn.Micro.XamlMetadataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     _otherProviders.Add(provider); 
+                    provider = new global::Callisto.Callisto_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    _otherProviders.Add(provider); 
                 }
                 return _otherProviders;
             }

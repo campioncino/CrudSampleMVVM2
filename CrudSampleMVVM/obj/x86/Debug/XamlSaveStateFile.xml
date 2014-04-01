@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\crudsamplemvvm\obj\x86\debug\intermediatexaml\crudsamplemvvm.exe" HashGuid="1c4e8120-61bd-c873-d2e0-a95083653b60" />
+    <LocalAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\crudsamplemvvm\obj\x86\debug\intermediatexaml\crudsamplemvvm.exe" HashGuid="fdb2d947-cb78-6fbf-8bf1-3a94cc5e5071" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\msadvertisingxaml\8.1\references\commonconfiguration\neutral\microsoft.advertising.winrt.ui.winmd" HashGuid="6588494d-37e3-4bf8-bf82-6a4bc10c0818" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\mstestframework\11.0\references\commonconfiguration\neutral\microsoft.visualstudio.testplatform.unittestframework.appcontainer.dll" HashGuid="b6bd2ba6-e56a-d30b-bf2a-f65eae767759" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\mstestframework\11.0\references\commonconfiguration\neutral\microsoft.visualstudio.testplatform.unittestframework.dll" HashGuid="7bc88657-b251-8266-31b9-2fb432b52636" />
@@ -8,8 +8,10 @@
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\msadvertisingxaml\8.1\references\commonconfiguration\neutral\microsoftadvertising.winmd" HashGuid="0dde57b7-8c99-5b9a-0771-4cdcca925c59" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
-    <ReferenceAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\packages\caliburn.micro.core.2.0.0-alpha2\lib\portable-net45+sl5+win8+wp8\caliburn.micro.dll" HashGuid="3ddd0379-8393-83f3-b675-8b86f18550b0" />
-    <ReferenceAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\packages\caliburn.micro.2.0.0-alpha2\lib\win81\caliburn.micro.extensions.dll" HashGuid="2bf2b248-83d5-b221-f5cb-b0357056e298" />
-    <ReferenceAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\packages\caliburn.micro.2.0.0-alpha2\lib\win81\caliburn.micro.platform.dll" HashGuid="c7f2e841-2de4-e9d6-99fd-1d179a35d8e3" />
+    <ReferenceAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\packages\caliburn.micro.core.2.0.0-beta\lib\portable-net45+sl5+win8+wp8\caliburn.micro.dll" HashGuid="8e9887a0-9e88-6489-a5a8-c9600a18283e" />
+    <ReferenceAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\packages\caliburn.micro.2.0.0-beta\lib\win81\caliburn.micro.extensions.dll" HashGuid="0c596a83-b4dd-5a95-bc04-4552adbe081c" />
+    <ReferenceAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\packages\caliburn.micro.2.0.0-beta\lib\win81\caliburn.micro.platform.dll" HashGuid="c4442174-fdbe-64e8-0be5-1a9a706a144d" />
+    <ReferenceAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\packages\callisto.1.2.9\lib\winrt45\callisto.dll" HashGuid="1960ce05-6528-4585-e2fe-65c2cd77dfb0" />
+    <ReferenceAssembly PathName="c:\users\maxpower\documents\visual studio 2013\projects\crudsamplemvvm\packages\windows.ui.interactivity.1.1.0.0\lib\win\windows.ui.interactivity.dll" HashGuid="d2cf19b8-7413-a6d1-87a4-9386b3baa297" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

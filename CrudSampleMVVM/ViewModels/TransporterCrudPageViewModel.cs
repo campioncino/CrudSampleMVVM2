@@ -14,6 +14,7 @@ using CrudSampleMVVM.Business.Dao;
 using CrudSampleMVVM.Business.Model;
 
 using CrudSampleMVVM.Views;
+using System.Diagnostics;
 
 
 namespace CrudSampleMVVM.ViewModels
@@ -22,7 +23,7 @@ namespace CrudSampleMVVM.ViewModels
     {
         public string Title { get; set; }
 
-        public Transporter Parameter { get; set; }
+        public static Transporter Parameter { get; set; }
 
         Transporter t { get; set; }
         public TransporterFormViewModel TransporterFormVM { get; set; }
@@ -30,19 +31,20 @@ namespace CrudSampleMVVM.ViewModels
         public async void InitializeTransporterForm(Transporter enumerable)
         {
             TransporterFormVM = new TransporterFormViewModel(navigationService, enumerable);
-            this.Parameter = enumerable; //setting the Parameter property..
-            
+            Parameter = enumerable; //setting the Parameter property..
             try
             {
-                 SetUpForm(enumerable);
+                await SetUpForm(Parameter);
+                Debug.WriteLine("SetupForm Executed");
             }
-            catch (Exception e) { System.Diagnostics.Debug.WriteLine(e.Message);  }
+            catch (Exception e) { Debug.WriteLine("SetupForm Exception");  }
         }
 
  
-        public void SetUpForm(Transporter t){
-            TransporterFormVM.trName = t.trName;
-            TransporterFormVM.trUrl = t.trUrl;
+        public async Task SetUpForm(Transporter t){
+            Debug.WriteLine("Value in CrudPage = " + Parameter.trName);
+            TransporterFormVM.trName = Parameter.trName;
+            TransporterFormVM.trUrl = Parameter.trUrl;
             
         }
         public TransporterCrudPageViewModel(INavigationService navigationService)
@@ -52,7 +54,7 @@ namespace CrudSampleMVVM.ViewModels
             this.navigationService = navigationService;   
            
             //TransporterFormVM = new TransporterFormViewModel(navigationService);
-            this.InitializeTransporterForm(t);
+            this.InitializeTransporterForm(Parameter);
 
         }
 

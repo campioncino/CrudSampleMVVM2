@@ -94,7 +94,7 @@ namespace CrudSampleMVVM.ViewModels
             Transporter tmp = new Transporter();
             tmp = args.Parameter as Transporter;
             if (tmp != null)
-                Debug.WriteLine(tmp.trName);
+                Debug.WriteLine("Value in TransporterListViewModel = "+tmp.trName);
             transporterCrudPageViewModel.InitializeTransporterForm(tmp);
             
             
